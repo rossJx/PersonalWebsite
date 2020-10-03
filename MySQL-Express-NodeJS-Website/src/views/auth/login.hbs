@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="/css/access.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/login.css"> It has the same style, but just for /login -->
+<div class="containerAccess">
+    <div class="forms-container">
+        <div class="login-content">
+            <!-- Login form -->
+            <form action="/login" method="POST" class="sign-in-form">
+                <img src="img/avatar.svg">
+                <h2 class="title">Login</h2>
+                <div class="input-field one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" name="username" class="input">
+                    </div>
+                </div>
+                <div class="input-field pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" name="password" class="input">
+                    </div>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <button class="btn btn-success btn-block">
+                    Login
+                </button>
+                <p class="social-text">Or register with social platforms</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>New here?</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+                    ex ratione. Aliquid!
+                </p>
+                <button class="btn transparent" id="sign-up-btn">
+                    Register
+                </button>
+            </div>
+            <img src="img/men.svg" class="image" alt="" />
+        </div>
+    </div>
+</div>
+<script src="/js/login.js"></script>
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>

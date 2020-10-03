@@ -1,0 +1,13 @@
+
+body {
+    background-color: #112d3e;
+    font-family: 'Montserrat', sans-serif;
+    overflow: visible;
+}
+.nav-item a{
+    font-size: 2rem;
+    color: #74c8fb;
+}
+.navbar-toggler-icon{
+    color: #74c8fb;
+}
